@@ -1,0 +1,8 @@
+mode: ddosoneserv # nullping или ddosoneserv или ddosmonitoring или nicknames
+writeservers: true # true or false включайте если mode = ddosoneserv
+autorestart: true # true or false авто рестарт  - "Проги
+restartdelay: 3 # only minutes через сколько минут будет  - "Перезагружаться  - "Прога для ботов, для ddosmonitoring чтобы новые сервера  - "Парсить
+customnicks: true # true or false свои ники nicks.txt (если файла не будет, то  - "Прога на - "Пишет что будет генерировать и ничего не  - "Произойдет, nicks.txt обьязателен)
+taskexecute:
+ - "await 1s" # available: s - seconds ; ms - milliseconds ; h - hours
+ - "message"
